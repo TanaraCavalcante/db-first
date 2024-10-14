@@ -1,0 +1,17 @@
+
+Table name: cars
+
+id                      BIGINT        
+car                     VARCHAR(255)
+model                   VARCHAR(255)
+price                   MEDIUMINT
+exterior_color          VARCHAR(255)
+diet                    VARCHAR(255)
+kilometers              MEDIUMINT
+change                  VARCHAR(255)
+registration_date       DATE
+equipment               TEXT
+seats                   BIGINT
+doors                   BIGINT
+fisca_cvs               BIGINT
+
