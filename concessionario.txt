@@ -1,17 +1,17 @@
 
 Table name: cars
 
-id                      BIGINT        
-car                     VARCHAR(255)
-model                   VARCHAR(255)
-price                   MEDIUMINT
-exterior_color          VARCHAR(255)
-diet                    VARCHAR(255)
-kilometers              MEDIUMINT
-change                  VARCHAR(255)
-registration_date       DATE
-equipment               TEXT
-seats                   BIGINT
-doors                   BIGINT
-fisca_cvs               BIGINT
+id                      BIGINT                PRIMARY_KEY  
+car                     VARCHAR(255)          NOT_NULL
+model                   VARCHAR(255)          NOT_NULL
+price                   MEDIUMINT             NOT_NULL
+exterior_color          VARCHAR(255)          NULL
+diet                    VARCHAR(255)          NOT_NULL
+kilometers              MEDIUMINT             NOT_NULL
+change                  VARCHAR(255)          NOT_NULL
+registration_date       DATE                  NOT_NULL
+equipment               TEXT                  NULL
+seats                   BIGINT                NULL
+doors                   BIGINT                NULL
+fisca_cvs               BIGINT                NULL
 
